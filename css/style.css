@@ -409,6 +409,9 @@ body {
 
   .header-active {
     display: flex;
+    /******2******/
+    border-bottom-left-radius: 63px;
+    /************/
   }
 
   .logo {
@@ -448,10 +451,24 @@ body {
 
   .main-title {
     font-size: 56px;
+    /******1******/
+    z-index: 10;
+    /************/
   }
 
   .series {
     /* В разрешении Pixel2 XL с 80%- видна часть следующего слайда. Поэтому- 78% */
-    width: 78%;
+    width: 75%;
   }
+
+  .main-content {
+    /*******3*****/
+    position: relative !important;
+    /************/
+  }
+
+  .rating-number {
+    display: none;
+  }
+
 }
