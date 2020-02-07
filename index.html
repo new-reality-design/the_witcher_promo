@@ -12,6 +12,8 @@
     rel="stylesheet">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/swiper.min.css">
+  <link rel="stylesheet" href="./css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="./css/animate.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -53,8 +55,8 @@
       <div class="main-content">
         <div class="content">
 
-          <span class="genre">2019, фэнтези</span>
-          <div class="rating">
+          <span class="genre animated fadeInRight">2019, фэнтези</span>
+          <div class="rating animated fadeInRight">
             <div class="rating-stars">
               <img src="./img/star-solid.svg" alt="star-solid" class="star">
               <img src="./img/star-solid.svg" alt="star-solid" class="star">
@@ -71,10 +73,10 @@
           </div>
           <!-- /.rating -->
 
-          <h1 class="main-title">Ведьмак</h1>
+          <h1 class="main-title animated fadeInRight">Ведьмак</h1>
           <!-- /.main-title -->
 
-          <p class="main-description">
+          <p class="main-description animated fadeInRight">
             Ведьмак Геральт, мутант и убийца чудовищ, на своей верной лошади по
             кличке Плотва путешествует по Континенту. За тугой кошелёк чеканных
             монет этот мужчина избавит вас от всякой настырной нечисти — от
@@ -82,14 +84,16 @@
           </p>
           <!-- /.main-description -->
 
-          <button class="button">Смотреть онлайн</button>
+          <a data-fancybox href="https://www.youtube.com/watch?v=Bw6XSzDTeTU"
+            class="button animated fadeIn">Смотреть трейлер</a>
 
 
         </div>
         <!-- /.content -->
-        <button class="play">
+        <a data-fancybox href="https://www.youtube.com/watch?v=Bw6XSzDTeTU"
+          class="play">
           <img src="./img/play.svg" alt="play" class="play-img">
-        </button>
+        </a>
         <!-- /.play -->
       </div>
       <!-- /.main-content -->
@@ -204,6 +208,9 @@
 
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js">
+  </script>
+  <script src="./js/jquery.fancybox.min.js"></script>
   <script src="./js/swiper.min.js"></script>
   <script src="./js/main.js"></script>
 </body>

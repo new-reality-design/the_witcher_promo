@@ -79,12 +79,14 @@ body {
   line-height: 16px;
   margin-bottom: 16px;
   display: block;
+  animation-delay: 0.1s;
 }
 
 .rating {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  animation-delay: 0.3s;
 }
 
 .rating-number {
@@ -98,6 +100,7 @@ body {
   font-size: 76px;
   line-height: 89px;
   margin-bottom: 10px;
+  animation-delay: 0.5s;
 }
 
 .main-description {
@@ -106,6 +109,7 @@ body {
   font-size: 14px;
   line-height: 150%;
   margin-bottom: 40px;
+  animation-delay: 0.7s;
 }
 
 .button {
@@ -118,7 +122,16 @@ body {
   color: #fff;
   border: none;
   padding: 22px 72px;
+  animation-delay: 1s;
+  text-decoration: none;
+}
 
+.button:active {
+  color: #fff;
+}
+
+.button:focus {
+  outline: none !important;
 }
 
 .play-img {
@@ -135,18 +148,22 @@ body {
   border-radius: 50%;
   border: none;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .play:before {
   content: '';
-  width: 132px;
-  height: 132px;
+  width: 124px;
+  height: 124px;
   background-color: #9D2929;
   position: absolute;
   opacity: 0.5;
   border-radius: 50%;
-  left: -16px;
-  top: -16px;
+  left: -12px;
+  top: -12px;
+  animation: pulse 3s ease-in-out 2s infinite;
 }
 
 /* slider */
