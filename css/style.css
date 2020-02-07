@@ -410,7 +410,7 @@ body {
   .header-active {
     display: flex;
     /******2******/
-    border-bottom-left-radius: 63px;
+    border-bottom-left-radius: 105px;
     /************/
   }
 
@@ -450,7 +450,7 @@ body {
   }
 
   .main-title {
-    font-size: 70px;
+    font-size: 80px;
     /******1******/
     z-index: 10;
     /************/
@@ -473,11 +473,17 @@ body {
     /************/
     width: 60%;
     /************/
+    margin-bottom: -10px;
   }
 
   /*******4*****/
   .rating-stars {
-    margin-bottom: 15px;
+    margin-bottom: 7px;
+  }
+
+  .rating-number {
+    margin-left: 0px;
+    font-size: 10px;
   }
 
   /************/
