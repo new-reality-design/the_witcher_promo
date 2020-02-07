@@ -457,7 +457,7 @@ body {
   }
 
   .series {
-    /* В разрешении Pixel2 XL с 80%- видна часть следующего слайда. Поэтому- 78% */
+    /* В разрешении Pixel2 XL с 80%- видна часть следующего слайда. Поэтому- 75% */
     width: 75%;
   }
 
@@ -467,8 +467,31 @@ body {
     /************/
   }
 
+  .rating {
+    align-items: flex-start;
+    flex-direction: column;
+    /************/
+    width: 60%;
+    /************/
+  }
+
+  /*******4*****/
+  .rating-stars {
+    margin-bottom: 15px;
+  }
+
+  /************/
+
+
+  /******
   .rating-number {
     display: none;
   }
+  ******/
+  /******
+   .rating-stars
+      {
+    width: 75%;
+  }******/
 
 }
